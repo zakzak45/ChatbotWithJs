@@ -1,0 +1,24 @@
+{
+  "name": "chatbotwithjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakzak45/ChatbotWithJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/zakzak45/ChatbotWithJs/issues"
+  },
+  "homepage": "https://github.com/zakzak45/ChatbotWithJs#readme",
+  "dependencies": {
+    "openai": "^4.103.0"
+  }
+}
