@@ -1,13 +1,12 @@
 import OpenAI from "openai";
 import readline from "readline";
 
-// Set up the OpenAI instance with your API key
+// ⚠️ Replace with your own API key (DO NOT share this publicly)
 const openai = new OpenAI({
-  apiKey: "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", // WARNING: Don't hardcode your API key in production
-  organization: "org-0nmrFWw6wSm6xIJXSbx4FpTw",
+  apiKey: "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",
+  organization: "org-0nmrFWw6wSm6xIJXSbx4FpTw", // optional
 });
 
-// Set up terminal input
 const userInterface = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
